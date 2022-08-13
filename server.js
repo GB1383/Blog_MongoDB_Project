@@ -1,3 +1,8 @@
+// This is a final Project for WDDM-120
+//Gobind - N01518874
+//Urvin - N01519084
+
+
 const express = require('express')
 const mongoose = require('mongoose')
 const Article = require('./models/article')
@@ -21,3 +26,4 @@ app.get('/', async (req, res) => {
 app.use('/articles', articleRouter)
 
 app.listen(5000)
+
